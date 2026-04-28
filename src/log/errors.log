@@ -14,3 +14,29 @@
 [2026-04-28T01:37:13.363Z] [Order.updateStatus/delivered] Cannot read properties of undefined (reading '_id')
 [2026-04-28T01:44:10.477Z] [User.save] E11000 duplicate key error collection: ai-food.users index: email_1 dup key: { email: "joao@email.com" }
 [2026-04-28T01:44:35.356Z] [User.save] E11000 duplicate key error collection: ai-food.users index: email_1 dup key: { email: "joao@email.com" }
+
+// started testing with new seed functions
+
+[2026-04-28T06:21:41.730Z] [User.save] E11000 duplicate key error collection: ai-food.users index: email_1 dup key: { email: "joao@email.com" }
+
+// deleted all users
+
+[2026-04-28T06:22:56.221Z] [Store.save] First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[2026-04-28T06:26:19.872Z] [User.save] E11000 duplicate key error collection: ai-food.users index: email_1 dup key: { email: "ana@email.com" }
+
+// deleted all data
+
+[2026-04-28T06:36:14.311Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.313Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.316Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.319Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.321Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.322Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.324Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.326Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.328Z] [Order.save] order is not defined
+[2026-04-28T06:36:14.330Z] [Order.save] order is not defined
+
+// typo in 'order', deteted all data again...
+
+// all worked
