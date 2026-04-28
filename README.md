@@ -46,7 +46,7 @@ index.js    script de demonstração do fluxo completo
  
 ## Entidades
  
- ![Alt Text]('db-diagram.png)
+ ![Diagrama do banco (db-diagram.png, disponível no projeto)](db-diagram.png)
 
 - User: Usuário que realiza pedidos;
 - Store: Loja cadastrada na plataforma;
