@@ -1,8 +1,9 @@
 import mongoose from 'mongoose';
+import 'dotenv/config';
 
 export async function connect() {
     try {
-        await mongoose.connect('mongodb://localhost:27017/ai-food');
+        await mongoose.connect(process.env.MONGODB_URI);
         console.info('banco conectado!');
         console.log('state:', mongoose.connection.readyState);
     }
