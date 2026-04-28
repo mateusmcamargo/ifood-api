@@ -56,10 +56,6 @@ export default {
     },
 
     updateStatus(id, status) {
-        return Order.findByIdAndUpdate(id, { status }, {
-            // new: true, deprecated
-            returnDocument: true,
-            runValidators: true // enum
-        });
+        return this.findByIdAndUpdate(id, { status });
     }
 };
