@@ -1,0 +1,16 @@
+[2026-04-28T01:36:21.983Z] [User.inserir] User.inserir is not a function
+[2026-04-28T01:36:21.993Z] [Store.inserir] Store.inserir is not a function
+[2026-04-28T01:36:21.994Z] [Product.inserir] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:36:21.994Z] [Order.inserir] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:36:21.994Z] [Order.updateStatus/approved] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:36:21.995Z] [Order.updateStatus/delivering] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:36:21.995Z] [Order.updateStatus/delivered] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:37:13.359Z] [User.save] User validation failed: email: Path `email` is required., name: Path `name` is required.
+[2026-04-28T01:37:13.360Z] [Store.save] Store validation failed: address: Path `address` is required., name: Path `name` is required.
+[2026-04-28T01:37:13.361Z] [Product.save] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:37:13.361Z] [Order.save] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:37:13.362Z] [Order.updateStatus/approved] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:37:13.363Z] [Order.updateStatus/delivering] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:37:13.363Z] [Order.updateStatus/delivered] Cannot read properties of undefined (reading '_id')
+[2026-04-28T01:44:10.477Z] [User.save] E11000 duplicate key error collection: ai-food.users index: email_1 dup key: { email: "joao@email.com" }
+[2026-04-28T01:44:35.356Z] [User.save] E11000 duplicate key error collection: ai-food.users index: email_1 dup key: { email: "joao@email.com" }
